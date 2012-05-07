@@ -4,7 +4,9 @@
 2. Extract the package and place the SimpleLink folder in the TinyMCE plugins folder
 3. Add the SimpleLink plugin to your init call:
 
-`plugins : "simplelink"
-theme_advanced_buttons1 : "simplelink"`
+```javascript
+plugins : "simplelink"
+theme_advanced_buttons1 : "simplelink"
+```
 	
 Your done =)
