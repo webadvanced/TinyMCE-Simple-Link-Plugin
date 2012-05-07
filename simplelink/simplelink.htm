@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Enter link text and URL</title>
+        <script type="text/javascript" src="../../tiny_mce_popup.js"> </script>
+        <script type="text/javascript" src="js/simplelink.js"> </script>
+    </head>
+    <body id="simplelink" style="display: none" role="application" aria-labelledby="app_label">
+        <fieldset>
+            <legend>Enter link text and URL</legend>
+            <form onsubmit="SimpleLinkDialog.insert();return false;" action="#">
+                <p><label for="linkText">{#simplelink_dlg.linkTitle}</label>
+                    <input id="linkText" name="linkText" type="text" class="text" style="width: 100%" /></p>
+                <p><label for="linkUrl">{#simplelink_dlg.linkUrl}</label>
+                    <input id="linkUrl" name="linkUrl" type="text" class="text" style="width: 100%" /></p>
+                <div class="mceActionPanel">
+                    <input type="button" id="insert" name="insert" value="{#insert}" />
+                    <input type="button" id="cancel" name="cancel" value="{#cancel}" />
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>
