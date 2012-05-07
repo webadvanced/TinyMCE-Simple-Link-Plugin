@@ -1,3 +1,6 @@
+#What it does#
+Adds a simple button to the TinyMCE toolbar enabling users to add links without requiring the user to enter and highlight text first.
+
 #Setup#
 
 1. Download the SimpleLink plugin here: https://github.com/webadvanced/TinyMCE-Simple-Link-Plugin/tags
